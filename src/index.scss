@@ -1,0 +1,80 @@
+
+@import '~normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import 'loader/loader';
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.wrapper {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, rgb(218, 255, 236), white, rgb(218, 255, 236));
+}
+
+.menu {
+  font-size: 32px;
+  text-align: center;
+}
+
+.menu input {
+  margin-right: 16px;
+}
+
+.menu form {
+  margin-top: 8px;
+  font-size: 28px;
+}
+
+.menu button {
+  width: 70%;
+  height: 48px;
+  margin-top: 8px;
+  border-radius: 24px;
+  background: linear-gradient(to right bottom, white, rgb(255, 159, 32));
+}
+.game {
+  width: 480px;
+  height: 480px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  border-left: 2px solid rgb(104, 80, 0);
+  border-right: 2px solid rgb(104, 80, 0);
+}
+
+.game-row {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.game-cell {
+  width: 100%;
+  background: linear-gradient(to right bottom, rgb(211, 211, 211) 50%, rgb(150, 150, 150) 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell {
+  width: 90%;
+  height: 90%;
+  background: white;
+}
+
+.body {
+  background: rgb(255, 145, 0)
+}
+
+.head {
+  background: rgb(33, 0, 180)
+}
